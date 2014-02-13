@@ -1,7 +1,7 @@
 <?php 
 //Connects to your Database 
- mysql_connect("YOUR.database.info.hostedresource.com", "YOURusername", "YOURpassword") or die(mysql_error()); 
- mysql_select_db("YOURdatabase") or die(mysql_error()); 
+ mysql_connect("localhost", "root", "") or die(mysql_error()); 
+ mysql_select_db("Login_db") or die(mysql_error()); 
 
 
  //This code runs if the form has been submitted
